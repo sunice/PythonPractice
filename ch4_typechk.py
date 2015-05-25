@@ -1,13 +1,12 @@
-
-def displayNumType(num):
+def display_num_type(num):
 	print num, 'is',
 	if isinstance(num, (int, long, float, complex)):
 		print 'a number of type:', type(num).__name__
 	else:
 		print 'not a number at all!'
 
-displayNumType(-69)
-displayNumType(999999999999999999999999999L)
-displayNumType(0.09)
-displayNumType(-8.9+0.9j)
-displayNumType('xxx')
+display_num_type(-69)
+display_num_type(999999999999999999999999999L)
+display_num_type(0.09)
+display_num_type(-8.9+0.9j)
+display_num_type('xxx')

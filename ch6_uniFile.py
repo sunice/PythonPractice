@@ -1,7 +1,7 @@
-'''
+"""
 An example of reading and writing Unicode strings:
 Writes a unicode string to a file in utf-8 and reads it back in
-'''
+"""
 CODEC = 'utf-8'
 FILE = 'unicode.txt'
 
